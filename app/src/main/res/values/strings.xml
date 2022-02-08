@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Gasto de Viagem</string>
+    <string name="Distance">Distância</string>
+    <string name="Total_Distance">Total de quilômetros</string>
+    <string name="price">Preço</string>
+    <string name="price_per_liter">Preço por Litro</string>
+    <string name="autonomy">Autonomia</string>
+    <string name="kms_per_liter">KMs por litro</string>
+    <string name="total_spend">Seu gasto total será de:</string>
+    <string name="calculate">Calcular</string>
+    <string name="Fill_in_all_fields">Preencha todos os campos</string>
+    <string name="enter_valid_values">Por favor, informe valores válidos!</string>
+    <string name="color_of_your_car">Qual cor você deseja pintar seu carro?</string>
+    <string name="black">Preto</string>
+    <string name="white">Branco</string>
+    <string name="blue">Azul</string>
+    <string name="green">Verde</string>
+    <string name="pink">Rosa</string>
+    <string name="car_icon">icone carro</string>
+    <string name="password">Senha</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login">Login</string>
+    <string name="not_register">Ainda não é cadastrado? Cadastre-se!</string>
+    <string name="logo">logo</string>
+</resources>

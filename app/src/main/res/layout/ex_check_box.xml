@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="@string/color_of_your_car"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/car_icon"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/car_icon"
+            android:src="@drawable/ic_car" />
+
+        <CheckBox
+            android:id="@+id/checkBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/black"
+            android:textColor="@color/white"
+            android:background="@color/lightBlack"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/checkWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/white"
+            android:background="@color/white"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/checkBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/blue"
+            android:background="@color/blue"/>
+
+        <CheckBox
+            android:id="@+id/checkGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/green"
+            android:background="@color/green"/>
+
+        <CheckBox
+            android:id="@+id/checkPink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/pink"
+            android:background="@color/pink"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
